@@ -1,0 +1,32 @@
+.countdown-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .countdown-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .countdown-time {
+    font-size: 36px;
+    color: #0077cc;
+    margin: 20px 0;
+  }
+  
+  .start-button {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .start-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
